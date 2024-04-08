@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 // import { ReactSVG } from 'react-svg';
+import ReactPlayer from 'react-player'
 
 import './home.css'
 import CHeader from '../../components/c-header/c-header'
@@ -26,11 +27,12 @@ import X90PlusMiniFront from '../../assets/x90plus-small.png'
 import T2MiniFront from '../../assets/t2-front-view.png'
 import T2Mini from '../../assets/t2-mini.png'
 import T2 from '../../assets/t2-front-left-angle.png'
-import InnovationVideo from '../../assets/videos/INNOVACION.mp4'
+import InnovationVideo from '../../assets/videos/dashing-home.mp4'
+import T2Video from '../../assets/videos/t2.mp4'
 // import SliderButtonBack from '../../assets/slider-button-back.png'
 // import SliderButtonNext from '../../assets/slider-button-next.png'
 // import PostImage1 from '../../assets/20220415-JETOUR-DASHENG-PORTADA@2x.png'
-import WhatsAppIcon from '../../assets/whatsapp-icon.svg'
+// import WhatsAppIcon from '../../assets/whatsapp-icon.svg'
 // import Logo from '../../assets/logo-white.svg'
 
 export default function VHome() {
@@ -90,6 +92,7 @@ export default function VHome() {
                         <h2 className='c-home__banner__subtitle'>REPÚBLICA DOMINICANA</h2>
                     </div>
                 </div> */}
+                <ReactPlayer url={T2Video} width='100%' height='auto' loop playing muted />
             </div>
             <div className='v-home__section__models'>
                 {modelSelected === 'dashing' && <div className='v-home__section__model__header'>
@@ -106,7 +109,7 @@ export default function VHome() {
                 </div>}
                 {modelSelected === 'x70-plus' && <div className='v-home__section__model__header'>
                     {/* <img src={X70PlusName} alt="" className='v-home__section__model__header_image'/> */}
-                    <h1 className='v-home__section__model__header__main-title'>X90</h1>
+                    <h1 className='v-home__section__model__header__main-title'>X70 PLUS</h1>
                     {/* <h2 className='v-home__section__model__header__title'>EL SUV ELEGANTE Y ESPACIOSO</h2> */}
                     <Link to={'/modelos/x70-plus'} className='v-home__section__model__header__button'>Más información</Link>
                 </div>}
@@ -156,7 +159,8 @@ export default function VHome() {
                 <div className='v-home__section__innovation__group'>
                     <h2 className='v-home__section__innovation__title'>INNOVACIÓN</h2>
                     <p className='v-home__section__innovation__text'>Impulsado por la innovación y con la búsqueda de la excelencia, está decidido a ser un líder en cada uno de sus campos y convertirse en una marca influyente y confiable del grupo.</p>
-                    <Link to={'/post-venta'} className='v-home__section__innovation__button'>Conoce más sobre nosotros</Link>
+                    <p className='v-home__section__innovation__text'>Jetour, marca respaldada por portafolio de vehículos MARTÍ</p>
+                    <Link to={'/novedades'} className='v-home__section__innovation__button'>Conoce más sobre nosotros</Link>
                 </div>
                 <div className='v-home__section__innovation__group'>
                     <video src={InnovationVideo} className='v-home__section__innovation__video' controls></video>
@@ -167,25 +171,25 @@ export default function VHome() {
                     <Link to={'/modelos/x70'} className='v-home__section__features__item-a'>
                         <div className='v-home__section__features__item__text-group'>
                             <p>X70</p>
-                            <h2>ESTABILIDAD y SEGURIDAD</h2>
+                            <h2>Estabilidad y Seguridad</h2>
                         </div>
                     </Link>
                     <div className='v-home__section__features__item-b'>
                         <Link to={'/modelos/x90-plus'} className='v-home__section__features__item__text-group'>
                             <p>X90 PLUS</p>
-                            <h2>FUERZA y BELLEZA</h2>
+                            <h2>Fuerza y Belleza</h2>
                         </Link>
                     </div>
                     <div className='v-home__section__features__item-c'>
                         <Link to={'/modelos/dashing'} className='v-home__section__features__item__text-group'>
                             <p>DASHING</p>
-                            <h2>DISEÑO y CONFORT</h2>
+                            <h2>Diseño  y Confort</h2>
                         </Link>
                     </div>
                     <div className='v-home__section__features__item-d'>
                         <Link to={'/modelos/x70-plus'} className='v-home__section__features__item__text-group'>
                             <p>X70 PLUS</p>
-                            <h2>INNOVACIÓN y DESARROLLO</h2>
+                            <h2>Innovación y Desarrollo</h2>
                         </Link>
                     </div>
                 </div>
@@ -209,17 +213,17 @@ export default function VHome() {
                         <img src={process.env.PUBLIC_URL + "/Images/dashing-exterior5.jpg"} alt="jetour" className='v-home__section__news__item__image'/>
                     </Link>
                     <Link to={'/novedades/nueva-propuesta-grupo-marti'} className='v-home__section__news__item'>
-                        <p className='v-home__section__news__item__title'>La nueva propuesta del Grupo Martí</p>
+                        <p className='v-home__section__news__item__title'>La nueva propuesta de Grupo Martí</p>
                         <p className='v-home__section__news__item__text'>10.07.23</p>
                         <img src={process.env.PUBLIC_URL + "/Images/x70PLus-exterior2.jpg"} alt="jetour" className='v-home__section__news__item__image'/>
                     </Link>
                 </div>
             </div>
-            <div className='v-home__section-whatsapp'>
+            {/* <div className='v-home__section-whatsapp'>
                 <a href="https://api.whatsapp.com/send/?phone=18098899087" className='v-home__whatsapp-icon__container'>
                     <img src={WhatsAppIcon} className='v-home__whatsapp-icon' alt="whatsapp" />
                 </a>
-            </div>
+            </div> */}
             <CFooter />
         </div>
     )

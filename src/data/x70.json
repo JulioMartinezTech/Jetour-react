@@ -2,27 +2,15 @@
     "slider1": [
         {
             "id": 0,
-            "imgPath": "../../Images/x70-interior1.jpg"
-        },
-        {
-            "id": 1,
             "imgPath": "../../Images/x70-interior2.jpg"
         },
         {
-            "id": 2,
+            "id": 1,
             "imgPath": "../../Images/x70-interior3.jpg"
         },
         {
-            "id": 3,
-            "imgPath": "../../Images/x70-interior4.jpg"
-        },
-        {
-            "id": 4,
-            "imgPath": "../../Images/x70-interior5.jpg"
-        },
-        {
-            "id": 5,
-            "imgPath": "../../Images/x70-interior6.jpg"
+            "id": 2,
+            "imgPath": "../../Images/x70-interior7.png"
         }
     ],
     "slider2": [

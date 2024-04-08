@@ -15,7 +15,7 @@ import Service3 from '../../assets/preventivo-icon.svg'
 import Service4 from '../../assets/correctivo-icon.svg'
 // import LogoWhite from '../../assets/logo-white.svg'
 import LogoBlack from '../../assets/logo-black.svg'
-import WhatsAppIcon from '../../assets/whatsapp-icon.svg'
+// import WhatsAppIcon from '../../assets/whatsapp-icon.svg'
 
 export default function VAfterSales() {
     return(
@@ -131,9 +131,9 @@ export default function VAfterSales() {
                 <p className='v-after-sales__section-call-center__number'>809-889-9087</p> */}
                 <Link to={"/contacto"} className='v-after-sales__section-call-center__button'>Contáctanos</Link>
             </div>
-            <a href="https://api.whatsapp.com/send/?phone=18098899087" className='v-after-sales__whatsapp-icon__container'>
+            {/* <a href="https://api.whatsapp.com/send/?phone=18098899087" className='v-after-sales__whatsapp-icon__container'>
                 <img src={WhatsAppIcon} className='v-after-sales__whatsapp-icon' alt="whatsapp" />
-            </a>
+            </a> */}
             <CFooter />
         </div>
     )

@@ -3,7 +3,8 @@ import './footer.css'
 import Logo from '../../assets/logo.svg' 
 import IconInstagram from '../../assets/icon-instagram-white.png'
 import IconFacebook from '../../assets/icon-facebook-white.png'
-import LogoMoviti from '../../assets/logo-moviti.png'
+import IconYoutube from '../../assets/icon-youtube.svg'
+import LogoMoviti from '../../assets/moviti-logo-new.png'
 
 export default function CFooter() {
     return(
@@ -17,6 +18,9 @@ export default function CFooter() {
                         </a>
                         <a href="https://web.facebook.com/profile.php?id=100092172548080">
                             <img src={IconFacebook} alt="" className='c-footer__rrss-image'/>
+                        </a>
+                        <a href=" https://youtube.com/@holajetour?si=y_6t9pMd3Ha1pDEx">
+                            <img src={IconYoutube} alt="" className='c-footer__rrss-image'/>
                         </a>
                     </div>
                 </div>

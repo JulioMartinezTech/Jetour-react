@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -72,14 +72,14 @@ export default function VContact() {
             <div className='v-contact__section'>
                 <div className='v-contact__section__container'>
                     <h1 className='v-contact__section__title'>CONTÁCTANOS</h1>
-                    <h3 className='v-contact__section__subtitle'>Atención personalizada</h3>
+                    {/* <h3 className='v-contact__section__subtitle'>Atención personalizada</h3>
                     <p className='v-contact__section__text'>Puedes obtener asistencia personalizada en alguna de nuestras concesionarias oficiales en todo el país</p>
                     <h3 className='v-contact__section__subtitle'>Email</h3>
                     <p className='v-contact__section__text'>ventas@jetourdominicana.com</p>
-                    <Link to={'/concesionarios'} className='v-contact__section__button'>Busca un concesionario</Link>
+                    <Link to={'/concesionarios'} className='v-contact__section__button'>Busca un concesionario</Link> */}
                 </div>
                 <div className='v-contact__section__container'>
-                    <h2 className='v-contact__section__form__title'>Escríbenos</h2>
+                    {/* <h2 className='v-contact__section__form__title'>Escríbenos</h2> */}
                     <form onSubmit={sendEmail} className='v-contact__section__form'>
                         <div className='v-contact__section__form__container'>
                             <input type="text" className={nameError ? 'v-contact__section__form__half-input-error' : 'v-contact__section__form__half-input'} placeholder='Nombre Completo (obligatorio)' value={name} onChange={(e)=>{nameHandle(e.target.value)}}/>

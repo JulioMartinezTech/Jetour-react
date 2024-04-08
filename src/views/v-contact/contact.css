@@ -9,12 +9,12 @@
     display: flex;
 }
 .v-contact__side-bar{
-    width: 1200px;
-    height: 1200px;
-    background-image: url(../../assets/side-bar.png);
+    width: 1900px;
+    height: 800px;
+    background-image: url(../../assets/t2-design1.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    /* background-position: center; */
+    background-size: cover;
+    background-position: center;
 }
 .v-contact__section{
     width: 100%;

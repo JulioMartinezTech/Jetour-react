@@ -3,7 +3,7 @@ import CHeader from '../../components/c-header/c-header'
 import CFooter from '../../components/c-footer/c-footer'
 import CNewsCard from '../../components/c-news-card/c-news-card'
 
-import Banner from '../../assets/jetour-novedades-hero-1366.webp'
+import Banner from '../../assets/banner-news.JPG'
 // import PostImage1 from '../../assets/article-05.webp'
 import PostImage2 from '../../assets/article-03.jpg'
 import PostImage3 from '../../assets/article-02.jpg'
@@ -11,7 +11,9 @@ import PostImage3 from '../../assets/article-02.jpg'
 export default function VNews() {
     return(
         <div className='v-news'>
-            <CHeader />
+            <div className='v-news__header'>
+                <CHeader />
+            </div>
             <img src={Banner} alt="" className='v-news__banner'/>
             <div className='v-news__section'>
                 <h2 className='v-news__title'>NOVEDADES SOBRE JETOUR</h2>

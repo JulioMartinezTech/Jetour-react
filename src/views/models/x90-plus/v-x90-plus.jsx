@@ -24,7 +24,7 @@ export default function VX90Plus() {
             <div className='v-x90-plus__banner'>
                  <img src={process.env.PUBLIC_URL + "/Images/x90PLus-exterior6.jpg"} alt="" className='v-x90-plus__banner__image'/>
                  <div className='v-x90-plus__banner__text-container'>
-                    <p className='v-x90-plus__banner__text'>X70 PLUS</p>
+                    <p className='v-x90-plus__banner__text'>X90 PLUS</p>
                  </div>
             </div>
             <div className='v-x90-plus__content-nav'>
@@ -43,40 +43,40 @@ export default function VX90Plus() {
                 <div className='v-x90-plus__section__overview__info-container'>
                     {color !== 'white' && <div className='v-x90-plus__section__overview__details-container'>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title'>Cilindrada (ml)</p>
-                            <h2 className='v-x90-plus__section__overview__detail'>1598</h2>
+                            <p className='v-x90-plus__section__overview__detail-title'>Motor Turbo alimentado Gasolina</p>
+                            <h2 className='v-x90-plus__section__overview__detail'>1,998cc.</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title'>Potencia máxima (ps)</p>
-                            <h2 className='v-x90-plus__section__overview__detail'>197</h2>
+                            <p className='v-x90-plus__section__overview__detail-title'>Cilindrada</p>
+                            <h2 className='v-x90-plus__section__overview__detail'>4 Cilindros</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title'>Par máximo (N.m)</p>
-                            <h2 className='v-x90-plus__section__overview__detail'>290</h2>
+                            <p className='v-x90-plus__section__overview__detail-title'>Potencia</p>
+                            <h2 className='v-x90-plus__section__overview__detail'>254HP</h2>
                         </div>
                         <a href="https://jetourglobal.com/spain/x90Plus-720" className='v-x90-plus__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x90-plus'} className='v-x90-plus__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     {color === 'white' && <div className='v-x90-plus__section__overview__details-container'>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title text-black'>Cilindrada (ml)</p>
-                            <h2 className='v-x90-plus__section__overview__detail text-black'>1598</h2>
+                            <p className='v-x90-plus__section__overview__detail-title text-black'>Motor Turbo alimentado Gasolina</p>
+                            <h2 className='v-x90-plus__section__overview__detail text-black'>1,998cc.</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title text-black'>Potencia máxima (ps)</p>
-                            <h2 className='v-x90-plus__section__overview__detail text-black'>197</h2>
+                            <p className='v-x90-plus__section__overview__detail-title text-black'>Cilindrada</p>
+                            <h2 className='v-x90-plus__section__overview__detail text-black'>4 Cilindros</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title text-black'>Par máximo (N.m)</p>
-                            <h2 className='v-x90-plus__section__overview__detail text-black'>290</h2>
+                            <p className='v-x90-plus__section__overview__detail-title text-black'>Potencia</p>
+                            <h2 className='v-x90-plus__section__overview__detail text-black'>254HP</h2>
                         </div>
                         <a href="https://jetourglobal.com/spain/x90Plus-720" className='v-x90-plus__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x90-plus'} className='v-x90-plus__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     <div className='v-x90-plus__section__overview__colors'>
                         <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-black' onClick={()=>{setColor('black')}}></div>
-                        <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-gray' onClick={()=>{setColor('gray')}}></div>
-                        <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-purple' onClick={()=>{setColor('purple')}}></div>
+                        {/* <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-gray' onClick={()=>{setColor('gray')}}></div>
+                        <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-purple' onClick={()=>{setColor('purple')}}></div> */}
                         <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-blue' onClick={()=>{setColor('blue')}}></div>
                         <div className='v-x90-plus__section__overview__color v-x90-plus__section__overview__color-white' onClick={()=>{setColor('white')}}></div>
                     </div>
@@ -141,20 +141,20 @@ export default function VX90Plus() {
                 <div className='v-x90-plus__section__design__info-container no-show-mobile'>
                     <div className='v-x90-plus__section__design__group-a'></div>
                     <div className='v-x90-plus__section__design__text-group'>
-                        <p className='v-x90-plus__section__design__text'>Llantas R20</p>
+                        <p className='v-x90-plus__section__design__text'>Llantas de Aleación 20”</p>
                     </div>
                 </div>
                 <div className='v-x90-plus__section__design__info-container'>
                     <div className='v-x90-plus__section__design__text-group'>
                         <h2 className='v-x90-plus__section__design__title'>APARIENCIA</h2>
-                        <p className='v-x90-plus__section__design__text'>Luces traseras con 236 partículas LED</p>
+                        <p className='v-x90-plus__section__design__text'>Luces traseras con 236 partículas LED.</p>
                     </div>
                     <div className='v-x90-plus__section__design__group-b'></div>
                 </div>
                 <div className='v-x90-plus__section__design__info-container no-show-mobile'>
                     <div className='v-x90-plus__section__design__group-c'></div>
                     <div className='v-x90-plus__section__design__text-group'>
-                        <p className='v-x90-plus__section__design__text'>Luces de freno en forma de 20 estrellas</p>
+                        <p className='v-x90-plus__section__design__text'>Baúl Trasero Eléctrico.</p>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@
     "slider2": [
         {
             "id": 0,
-            "imgPath": "../../Images/t2-exterior1.jpg"
+            "imgPath": "../../Images/t2-exterior3.jpg"
         },
         {
             "id": 1,
@@ -24,7 +24,7 @@
         },
         {
             "id": 2,
-            "imgPath": "../../Images/t2-exterior3.jpg"
+            "imgPath": "../../Images/t2-exterior1.jpg"
         }
     ],
     "techConfig": [

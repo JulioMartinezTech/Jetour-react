@@ -13,12 +13,12 @@
 }
 .v-locations__title{
     font-family: jetourFontSemiBold;
-  font-size: 40px;
+  font-size: 30px;
   color: #333333;
   font-weight: 900;
 }
 .v-locations__subtitle{
-    font-size: 30px;
+    font-size: 20px;
     color: #61B6CD;
     font-weight: 400;
 }
@@ -35,18 +35,18 @@
 
 @media (max-width: 1200px) {
     .v-locations__title{
-        font-size: 35px;
+        font-size: 25px;
         text-align: center;
       }
 }
 @media (max-width: 900px) {
     .v-locations__title{
-        font-size: 25px;
+        font-size: 15px;
         text-align: center;
         padding: 0 20px;
       }
     .v-locations__subtitle{
-        font-size: 22px;
+        font-size: 12px;
     }
     .v-locations__map{
         width: 90%;

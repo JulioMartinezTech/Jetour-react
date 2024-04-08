@@ -11,7 +11,7 @@
     height: 100%;
 }
 .v-x90-plus__banner__text-container{
-    width: 100%;
+    width: 90%;
     height: 166px;
     position: absolute;
     left: 130px;
@@ -224,23 +224,23 @@
 .v-x90-plus__section__design__group-a{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x90-plus-smart1.png);
-    background-size: cover;
-    background-position: left;
+    background-image: url(../../../assets/x90-plus-smart1.jpg);
+    background-size: 300%;
+    background-position: center;
 }
 .v-x90-plus__section__design__group-b{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x90-plus-smart2.png);
-    background-size: cover;
-    background-position: left;
+    background-image: url(../../../assets/x90-plus-smart3.jpg);
+    background-size: 400%;
+    background-position: center;
 }
 .v-x90-plus__section__design__group-c{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x90-plus-smart3.png);
+    background-image: url(../../../assets/x90-plus-smart2.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-x90-plus__section-security{
     width: 100%;

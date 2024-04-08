@@ -231,23 +231,23 @@
 .v-t2__section__design__group-a{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/t2-design1.png);
+    background-image: url(../../../assets/t2-design1.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-t2__section__design__group-b{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/t2-design2.png);
+    background-image: url(../../../assets/t2-design2.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-t2__section__design__group-c{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/t2-design3.png);
-    background-size: cover;
-    background-position: left;
+    background-image: url(../../../assets/t2-design3.jpg);
+    background-size: 400%;
+    background-position: center;
 }
 .v-t2__section__design__group-d{
     width: 360px;

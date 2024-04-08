@@ -45,32 +45,32 @@ export default function VX70() {
                 <div className='v-x70__section__overview__info-container'>
                     {color !== 'white' && <div className='v-x70__section__overview__details-container'>
                         <div className='v-x70__section__overview__details-group'>
-                            <p className='v-x70__section__overview__detail-title'>Cilindrada (ml)</p>
-                            <h2 className='v-x70__section__overview__detail'>1598</h2>
+                            <p className='v-x70__section__overview__detail-title'>Motor</p>
+                            <h2 className='v-x70__section__overview__detail'>1,500cc Gasolina</h2>
                         </div>
                         <div className='v-x70__section__overview__details-group'>
-                            <p className='v-x70__section__overview__detail-title'>Potencia máxima (ps)</p>
-                            <h2 className='v-x70__section__overview__detail'>197</h2>
+                            <p className='v-x70__section__overview__detail-title'>Cilindrada</p>
+                            <h2 className='v-x70__section__overview__detail'>4 Cilindros</h2>
                         </div>
                         <div className='v-x70__section__overview__details-group'>
-                            <p className='v-x70__section__overview__detail-title'>Par máximo (N.m)</p>
-                            <h2 className='v-x70__section__overview__detail'>290</h2>
+                            <p className='v-x70__section__overview__detail-title'>Potencia</p>
+                            <h2 className='v-x70__section__overview__detail'>150HP</h2>
                         </div>
                         <a href="https://jetourglobal.com/spain/x70-720" className='v-x70__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x70'} className='v-x70__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     {color === 'white' && <div className='v-x70__section__overview__details-container'>
                         <div className='v-x70__section__overview__details-group'>
-                            <p className='v-x70__section__overview__detail-title text-black'>Cilindrada (ml)</p>
-                            <h2 className='v-x70__section__overview__detail text-black'>1598</h2>
+                            <p className='v-x70__section__overview__detail-title text-black'>Motor</p>
+                            <h2 className='v-x70__section__overview__detail text-black'>1,500cc Gasolina</h2>
                         </div>
                         <div className='v-x70__section__overview__details-group'>
-                            <p className='v-x70__section__overview__detail-title text-black'>Potencia máxima (ps)</p>
-                            <h2 className='v-x70__section__overview__detail text-black'>197</h2>
+                            <p className='v-x70__section__overview__detail-title text-black'>Cilindrada</p>
+                            <h2 className='v-x70__section__overview__detail text-black'>4 Cilindros</h2>
                         </div>
                         <div className='v-x70__section__overview__details-group'>
-                            <p className='v-x70__section__overview__detail-title text-black'>Par máximo (N.m)</p>
-                            <h2 className='v-x70__section__overview__detail text-black'>290</h2>
+                            <p className='v-x70__section__overview__detail-title text-black'>Potencia</p>
+                            <h2 className='v-x70__section__overview__detail text-black'>150HP</h2>
                         </div>
                         <a href="https://jetourglobal.com/spain/x70-720" className='v-x70__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x70'} className='v-x70__model-nav__button__black'>Cotizar ahora</Link>
@@ -78,7 +78,7 @@ export default function VX70() {
                     <div className='v-x70__section__overview__colors'>
                         <div className='v-x70__section__overview__color v-x70__section__overview__color-red' onClick={()=>{setColor('red')}}></div>
                         <div className='v-x70__section__overview__color v-x70__section__overview__color-blue' onClick={()=>{setColor('blue')}}></div>
-                        <div className='v-x70__section__overview__color v-x70__section__overview__color-brown' onClick={()=>{setColor('brown')}}></div>
+                        {/* <div className='v-x70__section__overview__color v-x70__section__overview__color-brown' onClick={()=>{setColor('brown')}}></div> */}
                         <div className='v-x70__section__overview__color v-x70__section__overview__color-white' onClick={()=>{setColor('white')}}></div>
                     </div>
                 </div>
@@ -131,22 +131,20 @@ export default function VX70() {
                 <div className='v-x70__section__design__info-container no-show-mobile'>
                     <div className='v-x70__section__design__group-a'></div>
                     <div className='v-x70__section__design__text-group'>
-                        <p className='v-x70__section__design__text'>Longitud de 4720 mm,</p>
-                        <p className='v-x70__section__design__text'>Anchura de 1900 mm,</p>
-                        <p className='v-x70__section__design__text'>Vía de 1600/1595 mm</p>
+                        <p className='v-x70__section__design__text'>3 filas de asientos con capacidad para 7 pasajeros</p>
                     </div>
                 </div>
                 <div className='v-x70__section__design__info-container'>
                     <div className='v-x70__section__design__text-group'>
-                        <h2 className='v-x70__section__design__title'>EXPERIENCIA FLUIDA</h2>
-                        <p className='v-x70__section__design__text'>Cubo de rueda supergrande de 20 pulgadas y exquisita llanta de aluminio clásica.</p>
+                        {/* <h2 className='v-x70__section__design__title'>EXPERIENCIA FLUIDA</h2> */}
+                        <p className='v-x70__section__design__text'>Baúl Trasero Eléctrico</p>
                     </div>
                     <div className='v-x70__section__design__group-b'></div>
                 </div>
                 <div className='v-x70__section__design__info-container no-show-mobile'>
                     <div className='v-x70__section__design__group-c'></div>
                     <div className='v-x70__section__design__text-group'>
-                        <p className='v-x70__section__design__text'>Techo solar panorámico ultra ancho: El techo solar panorámico de 1.1 m2 garantiza una amplia visión, suficiente iluminación diurna, buena ventilación y una bella apariencia.</p>
+                        <p className='v-x70__section__design__text'>Techo panorámico con amplia visión e iluminación diurna y apariencia elegante.</p>
                     </div>
                 </div>
             </div>

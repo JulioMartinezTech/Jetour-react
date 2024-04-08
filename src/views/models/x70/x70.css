@@ -19,7 +19,7 @@
     height: 100%;
 }
 .v-x70__banner__text-container{
-    width: 100%;
+    width: 90%;
     height: 166px;
     position: absolute;
     left: 130px;
@@ -233,9 +233,9 @@
 .v-x70__section__design__group-b{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x70-smart2.png);
+    background-image: url(../../../assets/x70-baul.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-x70__section__design__group-c{
     width: 360px;
@@ -526,7 +526,7 @@
         position: absolute;
         left: -60px;
         overflow: hidden;
-        margin-top: 340px;
+        margin-top: 400px;
     }
     .v-x70__section__overview__image-container img{
         height: 250px;

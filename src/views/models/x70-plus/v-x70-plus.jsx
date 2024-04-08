@@ -45,43 +45,43 @@ export default function VX70Plus() {
                 <div className='v-x70-plus__section__overview__info-container'>
                     {color !== 'white' && <div className='v-x70-plus__section__overview__details-container'>
                         <div className='v-x70-plus__section__overview__details-group'>
-                            <p className='v-x70-plus__section__overview__detail-title'>Cilindrada (ml)</p>
-                            <h2 className='v-x70-plus__section__overview__detail'>1598</h2>
+                            <p className='v-x70-plus__section__overview__detail-title'>Motor</p>
+                            <h2 className='v-x70-plus__section__overview__detail'>1,590cc. Gasolina</h2>
                         </div>
                         <div className='v-x70-plus__section__overview__details-group'>
-                            <p className='v-x70-plus__section__overview__detail-title'>Potencia máxima (ps)</p>
-                            <h2 className='v-x70-plus__section__overview__detail'>197</h2>
+                            <p className='v-x70-plus__section__overview__detail-title'>Cilindrada</p>
+                            <h2 className='v-x70-plus__section__overview__detail'>4 Cilindros</h2>
                         </div>
                         <div className='v-x70-plus__section__overview__details-group'>
-                            <p className='v-x70-plus__section__overview__detail-title'>Par máximo (N.m)</p>
-                            <h2 className='v-x70-plus__section__overview__detail'>290</h2>
+                            <p className='v-x70-plus__section__overview__detail-title'>Potencia</p>
+                            <h2 className='v-x70-plus__section__overview__detail'>197HP</h2>
                         </div>
                         <a href="http://platanogeek.com/x70plus_720/" className='v-x70-plus__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x70-plus'} className='v-x70-plus__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     {color === 'white' && <div className='v-x70-plus__section__overview__details-container'>
                         <div className='v-x70-plus__section__overview__details-group'>
-                            <p className='v-x70-plus__section__overview__detail-title text-black'>Cilindrada (ml)</p>
-                            <h2 className='v-x70-plus__section__overview__detail text-black'>1598</h2>
+                            <p className='v-x70-plus__section__overview__detail-title text-black'>Motor</p>
+                            <h2 className='v-x70-plus__section__overview__detail text-black'>1,590cc. Gasolina</h2>
                         </div>
                         <div className='v-x70-plus__section__overview__details-group'>
-                            <p className='v-x70-plus__section__overview__detail-title text-black'>Potencia máxima (ps)</p>
-                            <h2 className='v-x70-plus__section__overview__detail text-black'>197</h2>
+                            <p className='v-x70-plus__section__overview__detail-title text-black'>Cilindrada</p>
+                            <h2 className='v-x70-plus__section__overview__detail text-black'>4 Cilindros</h2>
                         </div>
                         <div className='v-x70-plus__section__overview__details-group'>
-                            <p className='v-x70-plus__section__overview__detail-title'>Par máximo (N.m)</p>
-                            <h2 className='v-x70-plus__section__overview__detail text-black'>290</h2>
+                            <p className='v-x70-plus__section__overview__detail-title text-black'>Potencia</p>
+                            <h2 className='v-x70-plus__section__overview__detail text-black'>197HP</h2>
                         </div>
                         <a href="http://platanogeek.com/x70plus_720/" className='v-x70-plus__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x70-plus'} className='v-x70-plus__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     <div className='v-x70-plus__section__overview__colors'>
                         <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-black' onClick={()=>{setColor('black')}}></div>
-                        <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-gray' onClick={()=>{setColor('gray')}}></div>
+                        {/* <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-gray' onClick={()=>{setColor('gray')}}></div> */}
                         <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-red' onClick={()=>{setColor('red')}}></div>
                         <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-blue' onClick={()=>{setColor('blue')}}></div>
                         <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-white' onClick={()=>{setColor('white')}}></div>
-                        <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-purple' onClick={()=>{setColor('purple')}}></div>
+                        {/* <div className='v-x70-plus__section__overview__color v-x70-plus__section__overview__color-purple' onClick={()=>{setColor('purple')}}></div> */}
                     </div>
                 </div>
                 { color === 'black' && <div className='v-x70-plus__section__overview__background v-x70-plus__section__overview__background-balck'>
@@ -155,22 +155,21 @@ export default function VX70Plus() {
                 <div className='v-x70-plus__section__design__info-container no-show-mobile'>
                     <div className='v-x70-plus__section__design__group-a'></div>
                     <div className='v-x70-plus__section__design__text-group'>
-                        <p className='v-x70-plus__section__design__text'>Modelado tridimensional de varios niveles</p>
+                        <p className='v-x70-plus__section__design__text'>Aire acondicionado digital. Purificador de aire.</p>
                     </div>
                 </div>
                 <div className='v-x70-plus__section__design__info-container'>
                     <div className='v-x70-plus__section__design__text-group'>
                         <h2 className='v-x70-plus__section__design__title'>Confort</h2>
-                        <p className='v-x70-plus__section__design__text'>Claraboyas de visión interestelar de gran angular de 62 pulgadas</p>
+                        <p className='v-x70-plus__section__design__text'>Techo Panorámico de 62 pulgadas</p>
                     </div>
                     <div className='v-x70-plus__section__design__group-b'></div>
                 </div>
                 <div className='v-x70-plus__section__design__info-container no-show-mobile'>
                     <div className='v-x70-plus__section__design__group-c'></div>
                     <div className='v-x70-plus__section__design__text-group'>
-                        <p className='v-x70-plus__section__design__text'>Súper larga distancia entre ejes 2745 mm equivalente a coche de clase B</p>
-                        <p className='v-x70-plus__section__design__text'>Ancho del coche 1900 mm, el más grande de la misma clase El espacio de 5/7 asientos es flexible y cambiable para usted</p>
-                        <p className='v-x70-plus__section__design__text'>Vidrio trasero de protección de la intimidad Cristal de privacidad trasero</p>
+                        <p className='v-x70-plus__section__design__text'>Experimenta la comodidad superior con una distancia entre ejes de 2745 mm, comparable a la clase B.</p>
+                        <p className='v-x70-plus__section__design__text'>Configuración flexible de 5/7 asientos adaptada a tus necesidades de espacio y confort.</p>
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@ import CFooter from '../../../components/c-footer/c-footer'
 import CSlider from '../../../components/c-slider/c-slider'
 import CAccordion from '../../../components/c-accordion/c-accordion'
 
-import Banner from '../../../assets/t2-banner.png'
+import Banner from '../../../assets/t2-banner.jpg'
 // import LogoT2 from '../../../assets/t2-logo.svg'
 import T2Silver from '../../../assets/t2-silver-snowcar.png'
 import T2Gray from '../../../assets/t2-Highway-Graycar.png'
@@ -48,32 +48,32 @@ export default function VT2() {
                 <div className='v-t2__section__overview__info-container'>
                     {color !== 'white' && <div className='v-t2__section__overview__details-container'>
                         <div className='v-t2__section__overview__details-group'>
-                            <p className='v-t2__section__overview__detail-title'>Cilindrada (ml)</p>
-                            <h2 className='v-t2__section__overview__detail'>1998</h2>
+                            <p className='v-t2__section__overview__detail-title'>Motor Turbo Gasolina</p>
+                            <h2 className='v-t2__section__overview__detail'>1,998cc.</h2>
                         </div>
                         <div className='v-t2__section__overview__details-group'>
-                            <p className='v-t2__section__overview__detail-title'>Potencia máxima (ps)</p>
-                            <h2 className='v-t2__section__overview__detail'>254</h2>
+                            <p className='v-t2__section__overview__detail-title'>Cilindrada</p>
+                            <h2 className='v-t2__section__overview__detail'>4 Cilindros</h2>
                         </div>
                         <div className='v-t2__section__overview__details-group'>
-                            <p className='v-t2__section__overview__detail-title'>Par máximo (N.m)</p>
-                            <h2 className='v-t2__section__overview__detail'>390</h2>
+                            <p className='v-t2__section__overview__detail-title'>Potencia</p>
+                            <h2 className='v-t2__section__overview__detail'>250HP</h2>
                         </div>
                         <a href="https://jetourglobal.com/pages/360/T2.html" className='v-t2__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/t2'} className='v-t2__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     {color === 'white' && <div className='v-t2__section__overview__details-container'>
                         <div className='v-t2__section__overview__details-group'>
-                            <p className='v-t2__section__overview__detail-title text-black'>Cilindrada (ml)</p>
-                            <h2 className='v-t2__section__overview__detail text-black'>1998</h2>
+                            <p className='v-t2__section__overview__detail-title text-black'>Motor Turbo Gasolina</p>
+                            <h2 className='v-t2__section__overview__detail text-black'>1,998cc.</h2>
                         </div>
                         <div className='v-t2__section__overview__details-group'>
-                            <p className='v-t2__section__overview__detail-title text-black'>Potencia máxima (ps)</p>
-                            <h2 className='v-t2__section__overview__detail text-black'>254</h2>
+                            <p className='v-t2__section__overview__detail-title text-black'>Cilindrada</p>
+                            <h2 className='v-t2__section__overview__detail text-black'>4 Cilindros</h2>
                         </div>
                         <div className='v-t2__section__overview__details-group'>
-                            <p className='v-t2__section__overview__detail-title text-black'>Par máximo (N.m)</p>
-                            <h2 className='v-t2__section__overview__detail text-black'>390</h2>
+                            <p className='v-t2__section__overview__detail-title text-black'>Potencia</p>
+                            <h2 className='v-t2__section__overview__detail text-black'>250HP</h2>
                         </div>
                         <a href="https://jetourglobal.com/pages/360/T2.html" className='v-t2__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/t2'} className='v-t2__model-nav__button__black'>Cotizar ahora</Link>
@@ -83,10 +83,10 @@ export default function VT2() {
                         <div className='v-t2__section__overview__color v-t2__section__overview__color-silver' onClick={()=>{setColor('silver')}}></div>
                         <div className='v-t2__section__overview__color v-t2__section__overview__color-gray' onClick={()=>{setColor('gray')}}></div>
                         <div className='v-t2__section__overview__color v-t2__section__overview__color-black' onClick={()=>{setColor('black')}}></div>
-                        <div className='v-t2__section__overview__color v-t2__section__overview__color-orange' onClick={()=>{setColor('orange')}}></div>
+                        {/* <div className='v-t2__section__overview__color v-t2__section__overview__color-orange' onClick={()=>{setColor('orange')}}></div> */}
                         <div className='v-t2__section__overview__color v-t2__section__overview__color-sand' onClick={()=>{setColor('sand')}}></div>
                         <div className='v-t2__section__overview__color v-t2__section__overview__color-cyan' onClick={()=>{setColor('cyan')}}></div>
-                        <div className='v-t2__section__overview__color v-t2__section__overview__color-green' onClick={()=>{setColor('green')}}></div>
+                        {/* <div className='v-t2__section__overview__color v-t2__section__overview__color-green' onClick={()=>{setColor('green')}}></div> */}
                     </div>
                 </div>
                 {/* fondo para cada color */}
@@ -178,7 +178,7 @@ export default function VT2() {
                 </div>
                 <div className='v-t2__section__design__info-container'>
                     <div className='v-t2__section__design__text-group'>
-                        <h2 className='v-t2__section__design__title'>EXPLORA EMOCIONES ILIMITADAS CON EL JETOUR T2: TU EXPERIENCIA DEFINITIVA EN UN SUV 4X4</h2>
+                        <h2 className='v-t2__section__design__title'>Tu experiencia definitiva en un suv 4X4</h2>
                         <p className='v-t2__section__design__text'>Presentamos el SUV Jetour T2 4X4, donde el espíritu de aventura se combina con el lujo moderno.</p>
                     </div>
                     <div className='v-t2__section__design__group-b'></div>

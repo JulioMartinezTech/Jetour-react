@@ -51,32 +51,32 @@ export default function VDashing() {
                 <div className='v-dashing__section__overview__info-container'>
                     {color !== 'white' && <div className='v-dashing__section__overview__details-container'>
                         <div className='v-dashing__section__overview__details-group'>
-                            <p className='v-dashing__section__overview__detail-title '>Potencia (HP)</p>
-                            <h2 className='v-dashing__section__overview__detail '>200</h2>
-                        </div>
-                        <div className='v-dashing__section__overview__details-group'>
                             <p className='v-dashing__section__overview__detail-title '>Motor</p>
-                            <h2 className='v-dashing__section__overview__detail '>1.6T</h2>
+                            <h2 className='v-dashing__section__overview__detail '>1,498cc</h2>
                         </div>
                         <div className='v-dashing__section__overview__details-group'>
-                            <p className='v-dashing__section__overview__detail-title '>Cámara</p>
-                            <h2 className='v-dashing__section__overview__detail '>540</h2>
+                            <p className='v-dashing__section__overview__detail-title '>Cilindrada</p>
+                            <h2 className='v-dashing__section__overview__detail '>4 Cilindros</h2>
+                        </div>
+                        <div className='v-dashing__section__overview__details-group'>
+                            <p className='v-dashing__section__overview__detail-title '>Potencia</p>
+                            <h2 className='v-dashing__section__overview__detail '>150HP</h2>
                         </div>
                         <a href="https://platanogeek.com/dashing_720/" className='v-dashing__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/dashing'} className='v-dashing__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     {color === 'white' && <div className='v-dashing__section__overview__details-container'>
                         <div className='v-dashing__section__overview__details-group'>
-                            <p className='v-dashing__section__overview__detail-title text-black '>Potencia (HP)</p>
-                            <h2 className='v-dashing__section__overview__detail text-black '>200</h2>
-                        </div>
-                        <div className='v-dashing__section__overview__details-group'>
                             <p className='v-dashing__section__overview__detail-title text-black '>Motor</p>
-                            <h2 className='v-dashing__section__overview__detail text-black '>1.6T</h2>
+                            <h2 className='v-dashing__section__overview__detail text-black '>1,498cc</h2>
                         </div>
                         <div className='v-dashing__section__overview__details-group'>
-                            <p className='v-dashing__section__overview__detail-title text-black '>Cámara</p>
-                            <h2 className='v-dashing__section__overview__detail text-black '>540</h2>
+                            <p className='v-dashing__section__overview__detail-title text-black '>Cilindrada</p>
+                            <h2 className='v-dashing__section__overview__detail text-black '>4 Cilindros</h2>
+                        </div>
+                        <div className='v-dashing__section__overview__details-group'>
+                            <p className='v-dashing__section__overview__detail-title text-black '>Potencia</p>
+                            <h2 className='v-dashing__section__overview__detail text-black '>150HP</h2>
                         </div>
                         <a href="https://platanogeek.com/dashing_720/" className='v-dashing__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/dashing'} className='v-dashing__model-nav__button__black'>Cotizar ahora</Link>
@@ -154,7 +154,7 @@ export default function VDashing() {
                 </div>
                 <div className='v-dashing__section__design__info-container'>
                     <div className='v-dashing__section__design__text-group'>
-                        <h2 className='v-dashing__section__design__title'>DISEÑO EXTERIOR E INTERIOR LLAMATIVO</h2>
+                        <h2 className='v-dashing__section__design__title'>Diseño exterior llamativo</h2>
                         <p className='v-dashing__section__design__text'>El Jetour Dashing tiene un aspecto nítido traducido en su estilo aerodinámico y apariencia contemporánea.</p>
                     </div>
                     <div className='v-dashing__section__design__group-b'></div>
@@ -192,7 +192,7 @@ export default function VDashing() {
             <div className='v-dashing__section-slider' id="gallery">
                 <CSlider title="GALERÍA INTERIOR" data={data.slider1}/>
             </div>
-            <div className='v-dashing__section__design'>
+            {/* <div className='v-dashing__section__design'>
                 <div className='v-dashing__section__design__info-container no-show-mobile'>
                     <div className='v-dashing__section__design__group-d'></div>
                     <div className='v-dashing__section__design__text-group'>
@@ -212,7 +212,7 @@ export default function VDashing() {
                         <p className='v-dashing__section__design__text'>Para hacer las cosas espectaculares, un techo panorámico completo le da al interior del Dashing una sensación de ligereza y amplitud.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className='v-dashing__section-slider'>
                 <CSlider title="GALERÍA EXTERIOR" data={data.slider2}/>
             </div>
