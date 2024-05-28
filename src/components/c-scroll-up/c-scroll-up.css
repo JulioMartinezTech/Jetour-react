@@ -1,0 +1,28 @@
+.c-scroll-up{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 20px;
+    bottom: 70px;
+    position: fixed;
+}
+.c-scroll-up__button{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #30739a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-scroll-up__arrow{
+    width: 14px;
+    height: 14px;
+    border-top: solid 5px #fff;
+    border-right: solid 5px #fff;
+    transform: rotate(-45deg);
+    margin-top: 7px;
+}

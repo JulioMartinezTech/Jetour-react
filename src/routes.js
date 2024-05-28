@@ -27,7 +27,7 @@ const Routers = () => {
         <Route path="/modelos/x70-plus" element={<VX70Plus />} />
         <Route path="/modelos/x90-plus" element={<VX90Plus />} />
         <Route path="/modelos/t2" element={<VT2 />} />
-        <Route path="/concesionarios" element={<VLocations />} />
+        <Route path="/encuentrame" element={<VLocations />} />
         <Route path="/post-venta" element={<VAfterSales />} />
         <Route path="/novedades" element={<VNews />} />
         <Route

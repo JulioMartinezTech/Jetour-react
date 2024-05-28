@@ -52,7 +52,7 @@
 .v-t2__model-nav__button{
     width: 150px;
     height: 30px;
-    border: solid 2px #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -98,8 +98,8 @@
     width: 200px;
     height: 30px;
     text-decoration: none;
-    color: #030303;
-    border: solid 2px #030303;
+    color: #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -252,14 +252,14 @@
 .v-t2__section__design__group-d{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/t2-design4.png);
+    background-image: url(../../../assets/t2-design5.png);
     background-size: cover;
     background-position: left;
 }
 .v-t2__section__design__group-e{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/t2-design5.png);
+    background-image: url(../../../assets/t2-design4.png);
     background-size: cover;
     background-position: left;
 }
@@ -403,7 +403,7 @@
     .v-t2__model-nav__button__black{
         width: 200px;
         height: 30px;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -435,7 +435,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -540,7 +540,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;

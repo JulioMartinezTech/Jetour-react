@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import {WhatsappShareButton} from "react-share";
 
 import './accordion.css'
+import ShareIcon from '../../assets/share-icon.png'
 
 export default function CAccordion (props) {
     const [showDetails, setShowDetails] = useState(0)
@@ -8,6 +10,7 @@ export default function CAccordion (props) {
         <div className='c-accordion'>
             <div className='c-accordion__container__main-title'>
                 <h2 className='c-accordion__main-title'>{props.title}</h2>
+                <WhatsappShareButton url={props.url} className='c-accordion__share-button'> <img src={ShareIcon} alt="share-icon" className='c-accordion__share-button__icon'/></WhatsappShareButton>
             </div>
             {props.data.map((item, i)=>{
                return  (

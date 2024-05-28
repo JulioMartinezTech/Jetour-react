@@ -1,7 +1,7 @@
 .v-x70__header{
     width: 100%;
     height: 166px;
-    background: transparent linear-gradient(180deg, #000000 0%, #26262600 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #9c9c9c9e 0%, #9f9f9f5f 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
     position: absolute;
     z-index: 99999;
@@ -66,7 +66,7 @@
 .v-x70__model-nav__button{
     width: 150px;
     height: 30px;
-    border: solid 2px #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -112,8 +112,8 @@
     width: 200px;
     height: 30px;
     text-decoration: none;
-    color: #030303;
-    border: solid 2px #030303;
+    color: #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -226,23 +226,23 @@
 .v-x70__section__design__group-a{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x70-smart1.png);
+    background-image: url(../../../assets/x70-feature-1.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-x70__section__design__group-b{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x70-baul.jpg);
+    background-image: url(../../../assets/x70-feature-2.jpg);
     background-size: cover;
     background-position: center;
 }
 .v-x70__section__design__group-c{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x70-smart3.png);
+    background-image: url(../../../assets/x70-feature-3.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-x70__section-security{
     width: 100%;
@@ -360,7 +360,7 @@
     .v-x70__model-nav__button__black{
         width: 200px;
         height: 30px;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -392,7 +392,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -491,7 +491,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;

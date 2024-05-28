@@ -53,7 +53,7 @@
 .v-dashing__model-nav__button{
     width: 150px;
     height: 30px;
-    border: solid 2px #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -99,8 +99,8 @@
     width: 200px;
     height: 30px;
     text-decoration: none;
-    color: #030303;
-    border: solid 2px #030303;
+    color: #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -138,6 +138,9 @@
 .v-dashing__section__overview__color-white{
     background-color: #FFFFFF;
 }
+.v-dashing__section__overview__color-green{
+    background-color: rgb(93, 124, 123);
+}
 .v-dashing__section__overview__background{
     width: 35%;
     height: 100%;
@@ -164,6 +167,9 @@
 }
 .v-dashing__section__overview__background-white{
     background: transparent linear-gradient(145deg, #FFFFFF 0%, #888686 100%) 0% 0% no-repeat padding-box;
+}
+.v-dashing__section__overview__background-green{
+    background: transparent linear-gradient(-30deg, rgb(22, 57, 55), rgb(93, 124, 123));
 }
 .v-dashing__section__overview__background__title-group{
     padding-top: 90px;
@@ -219,23 +225,23 @@
 .v-dashing__section__design__group-a{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/design1.png);
-    background-size: cover;
-    background-position: left;
+    background-image: url(../../../assets/dashing-feature1.jpg);
+    background-size: 200%;
+    background-position: center;
 }
 .v-dashing__section__design__group-b{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/design2.png);
+    background-image: url(../../../assets/dashing-feature2.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-dashing__section__design__group-c{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/design3.png);
+    background-image: url(../../../assets/dashing-feature3.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
 .v-dashing__section__design__group-d{
     width: 360px;
@@ -377,7 +383,7 @@
     .v-dashing__model-nav__button__black{
         width: 200px;
         height: 30px;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -409,7 +415,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -510,7 +516,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;

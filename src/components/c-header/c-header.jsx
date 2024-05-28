@@ -34,17 +34,17 @@ export default function CHeader() {
                     <div className='c-header__nav__item' onClick={subMenuHandle}>
                         Modelos
                         {showSubMenu && <div className='c-header__nav__submenu'>
-                            <NavLink to={'/modelos/dashing'} className='c-header__nav__item'>Dashing</NavLink>
                             <NavLink to={'/modelos/x70'} className='c-header__nav__item'>X70</NavLink>
                             <NavLink to={'/modelos/x70-plus'} className='c-header__nav__item'>X70 Plus</NavLink>
+                            <NavLink to={'/modelos/dashing'} className='c-header__nav__item'>Dashing</NavLink>
                             <NavLink to={'/modelos/x90-plus'} className='c-header__nav__item'>X90 Plus</NavLink>
                             <NavLink to={'/modelos/t2'} className='c-header__nav__item'>T2</NavLink>
                         </div>}
                     </div>
-                    <NavLink to={'/concesionarios'} className='c-header__nav__item'>Concesionarios</NavLink>
+                    <NavLink to={'/encuentrame'} className='c-header__nav__item'>Encuéntrame</NavLink>
                     <NavLink to={'/post-venta'} className='c-header__nav__item'>Postventa</NavLink>
                     <NavLink to={'/novedades'} className='c-header__nav__item'>Novedades</NavLink>
-                    <NavLink to={'/contacto'} className='c-header__nav__item'>Contacto</NavLink>
+                    <NavLink to={'/contacto'} className='c-header__nav__item'>Contáctame</NavLink>
                 </div>}
             </div>
             <div className='c-header__nav__desktop'>
@@ -52,17 +52,17 @@ export default function CHeader() {
                     <div className='c-header__nav__item' onClick={subMenuHandle}>
                         Modelos
                         {showSubMenu && <div className='c-header__nav__submenu'>
-                            <NavLink to={'/modelos/dashing'} className='c-header__nav__item'>Dashing</NavLink>
                             <NavLink to={'/modelos/x70'} className='c-header__nav__item'>X70</NavLink>
                             <NavLink to={'/modelos/x70-plus'} className='c-header__nav__item'>X70 Plus</NavLink>
+                            <NavLink to={'/modelos/dashing'} className='c-header__nav__item'>Dashing</NavLink>
                             <NavLink to={'/modelos/x90-plus'} className='c-header__nav__item'>X90 Plus</NavLink>
                             <NavLink to={'/modelos/t2'} className='c-header__nav__item'>T2</NavLink>
                         </div>}
                     </div>
-                    <NavLink to={'/concesionarios'} className='c-header__nav__item'>Concesionarios</NavLink>
+                    <NavLink to={'/encuentrame'} className='c-header__nav__item'>Encuéntrame</NavLink>
                     <NavLink to={'/post-venta'} className='c-header__nav__item'>Postventa</NavLink>
                     <NavLink to={'/novedades'} className='c-header__nav__item'>Novedades</NavLink>
-                    <NavLink to={'/contacto'} className='c-header__nav__item'>Contacto</NavLink>
+                    <NavLink to={'/contacto'} className='c-header__nav__item'>Contáctame</NavLink>
                 </div>
         </div>
     )

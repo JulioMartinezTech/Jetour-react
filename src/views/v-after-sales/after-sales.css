@@ -56,6 +56,7 @@
 }
 .v-after-sales__section-services__item__image{
     width: 100%;
+    border-radius: 33px 33px 0 0;
 }
 .v-after-sales__section-services__item__title{
     width: 60%;
@@ -91,10 +92,19 @@
     flex-direction: column;
     gap: 20px;
     padding: 60px 0px;
+    margin: 60px 0;
 }
 .v-after-sales__section-action__title{
     font-family: jetourFontBold;
     font-size: 43px;
+}
+.v-after-sales__section-action__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
 }
 .v-after-sales__section-action__text-group{
     display: flex;
@@ -112,10 +122,11 @@
     width: 350px;
     height: 60px;
     text-decoration: none;
-    border: solid 2px #333333;
+    font-size: 18px;
+    color: #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
-    font-size: 18px;
     justify-content: center;
     align-items: center;
 }
@@ -160,7 +171,7 @@
 }
 .v-after-sales__section-benefits__details{
     width: 350px;
-    height: 600px;
+    height: 700px;
     background: #F3F2F2 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 40px #00000029;
     border-radius: 33px;
@@ -176,7 +187,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
-    margin-top: 100px;
 }
 .v-after-sales__section-benefits__details__title{
     width: 60%;

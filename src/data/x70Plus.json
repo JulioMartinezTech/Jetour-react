@@ -2,49 +2,49 @@
     "slider1": [
         {
             "id": 0,
-            "imgPath": "../../Images/x70PLus-interior1.jpg"
+            "imgPath": "/Images/x70PLus-interior1.jpg"
         },
         {
             "id": 1,
-            "imgPath": "../../Images/x70PLus-interior2.jpg"
+            "imgPath": "/Images/x70PLus-interior2.jpg"
         },
         {
             "id": 2,
-            "imgPath": "../../Images/x70PLus-interior3.jpg"
+            "imgPath": "/Images/x70PLus-interior3.jpg"
         },
         {
             "id": 3,
-            "imgPath": "../../Images/x70PLus-interior4.jpg"
+            "imgPath": "/Images/x70PLus-interior4.jpg"
         },
         {
             "id": 4,
-            "imgPath": "../../Images/x70PLus-interior5.jpg"
+            "imgPath": "/Images/x70PLus-interior5.jpg"
         },
         {
             "id": 5,
-            "imgPath": "../../Images/x70PLus-interior6.jpg"
+            "imgPath": "/Images/x70PLus-interior6.jpg"
         }
     ],
     "slider2": [
         {
             "id": 0,
-            "imgPath": "../../Images/x70PLus-exterior1.jpg"
+            "imgPath": "/Images/x70PLus-exterior1.jpg"
         },
         {
             "id": 1,
-            "imgPath": "../../Images/x70PLus-exterior2.jpg"
+            "imgPath": "/Images/x70PLus-exterior2.jpg"
         },
         {
             "id": 2,
-            "imgPath": "../../Images/x70PLus-exterior3.jpg"
+            "imgPath": "/Images/x70PLus-exterior3.jpg"
         },
         {
             "id": 3,
-            "imgPath": "../../Images/x70PLus-exterior4.jpg"
+            "imgPath": "/Images/x70PLus-exterior4.jpg"
         },
         {
             "id": 4,
-            "imgPath": "../../Images/x70PLus-exterior5.jpg"
+            "imgPath": "/Images/x70PLus-exterior5.jpg"
         }
     ],
     "techConfig": [
@@ -60,7 +60,7 @@
                 {
                     "id": 1,
                     "title": "Etiqueta del producto",
-                    "description": "1.5T+6MT/1.5T+6DCT/1.6TGDI+7DCT"
+                    "description": "1.6TGDI+7DCT"
                 },
                 {
                     "id": 2,
@@ -101,8 +101,33 @@
                 },
                 {
                     "id": 5,
-                    "title": "Capacidad del tanque de combustible (L)",
+                    "title": "Capacidad del tanque de combustible (GL)",
                     "description": "57"
+                },
+                {
+                    "id": 6,
+                    "title": "Tipo de suspensión delantera/Tipo de suspensión trasera",
+                    "description": "Suspensión independiente Macpherson/Suspensión independiente de enlace múltiple"
+                },
+                {
+                    "id": 7,
+                    "title": "Tipo de freno delantero/Tipo de freno trasero",
+                    "description": "Freno de disco/Freno de disco"
+                },
+                {
+                    "id": 8,
+                    "title": "Tipo de freno de estacionamiento",
+                    "description": "EPB"
+                },
+                {
+                    "id": 9,
+                    "title": "Especificación de neumáticos delanteros/traseros",
+                    "description": "R20"
+                },
+                {
+                    "id": 10,
+                    "title": "Especificaciones del neumático de repuesto",
+                    "description": "Tamaño no completo"
                 }
             ]
 
@@ -149,7 +174,7 @@
                 {
                     "id": 7,
                     "title": "Tipo de transmisión",
-                    "description": "6MT"
+                    "description": "7DCT"
                 },
                 {
                     "id": 8,
@@ -160,60 +185,6 @@
                     "id": 9,
                     "title": "Consumo de combustible (L/100km)",
                     "description": "7.5"
-                }
-            ]
-
-        },
-        {
-            "id": 4,
-            "category": "Dirección del chasis",
-            "info": [
-                {
-                    "id": 0,
-                    "title": "Modo conductor",
-                    "description": "FF"
-                },
-                {
-                    "id": 1,
-                    "title": "Tipo de suspensión delantera/Tipo de suspensión trasera",
-                    "description": "Suspensión independiente Macpherson/Suspensión independiente de enlace múltiple"
-                },
-                {
-                    "id": 2,
-                    "title": "Tipo de energía",
-                    "description": "EPS"
-                },
-                {
-                    "id": 3,
-                    "title": "Estructura de la carrocería",
-                    "description": "Soporte de carga"
-                }
-            ]
-
-        },
-        {
-            "id": 5,
-            "category": "Freno de rueda",
-            "info": [
-                {
-                    "id": 0,
-                    "title": "Tipo de freno delantero/Tipo de freno trasero",
-                    "description": "Freno de disco/Freno de disco"
-                },
-                {
-                    "id": 1,
-                    "title": "Tipo de freno de estacionamiento",
-                    "description": "EPB"
-                },
-                {
-                    "id": 2,
-                    "title": "Especificación de neumáticos delanteros/traseros",
-                    "description": "R17R18/R20"
-                },
-                {
-                    "id": 3,
-                    "title": "Especificaciones del neumático de repuesto",
-                    "description": "Tamaño no completo"
                 }
             ]
 

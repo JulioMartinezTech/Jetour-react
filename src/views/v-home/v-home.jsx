@@ -6,6 +6,7 @@ import ReactPlayer from 'react-player'
 import './home.css'
 import CHeader from '../../components/c-header/c-header'
 import CFooter from '../../components/c-footer/c-footer'
+import CScrollUp from '../../components/c-scroll-up/c-scroll-up'
 
 // import Portada from '../../assets/SLIDER PRINCIPAL.jpg'
 // import Portada from '../../assets/portada.png'
@@ -29,6 +30,8 @@ import T2Mini from '../../assets/t2-mini.png'
 import T2 from '../../assets/t2-front-left-angle.png'
 import InnovationVideo from '../../assets/videos/dashing-home.mp4'
 import T2Video from '../../assets/videos/t2.mp4'
+import X70Video from '../../assets/videos/x70.mp4'
+import DashingVideo from '../../assets/videos/dashing-temperature.mp4'
 // import SliderButtonBack from '../../assets/slider-button-back.png'
 // import SliderButtonNext from '../../assets/slider-button-next.png'
 // import PostImage1 from '../../assets/20220415-JETOUR-DASHENG-PORTADA@2x.png'
@@ -42,6 +45,7 @@ export default function VHome() {
     const [x90PlusHover, setX90PlusHover] = useState(false);
     const [t2Hover, setT2Hover] = useState(false);
     const [modelSelected, setModelSelected] = useState('x70')
+    const [videoActive, setVideoActive] = useState(1)
 
     const DashingHoverEnter = () => {
         setDashingHover(true)
@@ -92,7 +96,9 @@ export default function VHome() {
                         <h2 className='c-home__banner__subtitle'>REPÚBLICA DOMINICANA</h2>
                     </div>
                 </div> */}
-                <ReactPlayer url={T2Video} width='100%' height='auto' loop playing muted />
+                { videoActive === 1 && <ReactPlayer url={T2Video} width='100%' height='auto' playing muted onEnded={()=>{setVideoActive(2)}}/>}
+                {videoActive === 2 && <ReactPlayer url={X70Video} width='100%' height='auto' playing muted onEnded={()=>{setVideoActive(3)}}/>}
+                {videoActive === 3 && <ReactPlayer url={DashingVideo} width='100%' height='auto' playing muted onEnded={()=>{setVideoActive(1)}}/>}
             </div>
             <div className='v-home__section__models'>
                 {modelSelected === 'dashing' && <div className='v-home__section__model__header'>
@@ -158,8 +164,8 @@ export default function VHome() {
             <div className='v-home__section__innovation'>
                 <div className='v-home__section__innovation__group'>
                     <h2 className='v-home__section__innovation__title'>INNOVACIÓN</h2>
-                    <p className='v-home__section__innovation__text'>Impulsado por la innovación y con la búsqueda de la excelencia, está decidido a ser un líder en cada uno de sus campos y convertirse en una marca influyente y confiable del grupo.</p>
-                    <p className='v-home__section__innovation__text'>Jetour, marca respaldada por portafolio de vehículos MARTÍ</p>
+                    <p className='v-home__section__innovation__text'>Impulsado por la innovación, Jetour está decidida a ser la marca líder dentro de su segmento y convertirse en una marca influyente y confiable para su público.</p>
+                    <p className='v-home__section__innovation__text'>Jetour, marca respaldada por Movilidad Inteligente MARTÍ (MOVITI).</p>
                     <Link to={'/novedades'} className='v-home__section__innovation__button'>Conoce más sobre nosotros</Link>
                 </div>
                 <div className='v-home__section__innovation__group'>
@@ -175,21 +181,27 @@ export default function VHome() {
                         </div>
                     </Link>
                     <div className='v-home__section__features__item-b'>
-                        <Link to={'/modelos/x90-plus'} className='v-home__section__features__item__text-group'>
-                            <p>X90 PLUS</p>
-                            <h2>Fuerza y Belleza</h2>
+                        <Link to={'/modelos/x70-plus'} className='v-home__section__features__item__text-group'>
+                            <p>X70 PLUS</p>
+                            <h2>Detector de puntos ciegos</h2>
                         </Link>
                     </div>
                     <div className='v-home__section__features__item-c'>
                         <Link to={'/modelos/dashing'} className='v-home__section__features__item__text-group'>
                             <p>DASHING</p>
-                            <h2>Diseño  y Confort</h2>
+                            <h2>Sistema de sonido integrado en asientos delanteros</h2>
                         </Link>
                     </div>
                     <div className='v-home__section__features__item-d'>
-                        <Link to={'/modelos/x70-plus'} className='v-home__section__features__item__text-group'>
-                            <p>X70 PLUS</p>
-                            <h2>Innovación y Desarrollo</h2>
+                        <Link to={'/modelos/x90-plus'} className='v-home__section__features__item__text-group'>
+                            <p>X90 PLUS</p>
+                            <h2>Fuerza y Belleza</h2>
+                        </Link>
+                    </div>
+                    <div className='v-home__section__features__item-e'>
+                        <Link to={'/modelos/t2'} className='v-home__section__features__item__text-group'>
+                            <p>T2</p>
+                            <h2>Compuerta electromagnética </h2>
                         </Link>
                     </div>
                 </div>
@@ -219,6 +231,10 @@ export default function VHome() {
                     </Link>
                 </div>
             </div>
+            <div className='v-home__section__float-button'>
+                    <a href="https://citas.moviti.do/" className='v-home__cta'>Solicita tu test drive</a>
+            </div>
+            <CScrollUp/>
             {/* <div className='v-home__section-whatsapp'>
                 <a href="https://api.whatsapp.com/send/?phone=18098899087" className='v-home__whatsapp-icon__container'>
                     <img src={WhatsAppIcon} className='v-home__whatsapp-icon' alt="whatsapp" />

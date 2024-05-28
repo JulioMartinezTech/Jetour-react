@@ -1,35 +1,50 @@
 .c-footer{
-    height: 150px;
+    min-height: 180px;
     background-color: #484848;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.c-footer__section{
-    height: 30%;
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 70px;
+    gap: 30px;
+    padding: 30px 0 10px 0;
 }
-.c-footer__logo{
-    height: 20px;
+.c-footer__section{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.c-footer__info{
+    width: 170px;
+}
+.c-footer__title{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.c-footer__text{
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 2px 0;
 }
 .c-footer__rrss-group{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 16px;
     margin-top: 20px;
 }
 .c-footer__rrss-image{
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
 }
-.c-footer__separator{
-    width: 2px;
-    height: 70%;
-    background-color: white;
+.c-footer__group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.c-footer__logo{
+    height: 20px;
 }
 .c-footer__logo-moviti{
     height: 33px;
@@ -37,27 +52,27 @@
 
 @media (max-width: 600px) {
     .c-footer{
-        height: 200px;
+        height: auto;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
+        padding-bottom: 30px;
     }
     .c-footer__section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
+    }
+    .c-footer__text{
+        text-align: center;
     }
     .c-footer__logo{
         height: 20px;
     }
     .c-footer__rrss-image{
-        width: 28px;
-        height: 28px;
-    }
-    .c-footer__separator{
-        width: 70%;
-        height: 2px;
-        background-color: white;
+        width: 22px;
+        height: 22px;
     }
     .c-footer__logo-moviti{
         height: 22px;

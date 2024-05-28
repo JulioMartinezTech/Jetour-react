@@ -58,7 +58,7 @@
 .v-x90-plus__model-nav__button{
     width: 150px;
     height: 30px;
-    border: solid 2px #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -104,8 +104,8 @@
     width: 200px;
     height: 30px;
     text-decoration: none;
-    color: #030303;
-    border: solid 2px #030303;
+    color: #fff;
+    background-color: #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -224,21 +224,21 @@
 .v-x90-plus__section__design__group-a{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x90-plus-smart1.jpg);
-    background-size: 300%;
+    background-image: url(../../../assets/x90plus-feature1.jpg);
+    background-size: cover;
     background-position: center;
 }
 .v-x90-plus__section__design__group-b{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x90-plus-smart3.jpg);
-    background-size: 400%;
+    background-image: url(../../../assets/x90plus-feature2.jpg);
+    background-size: cover;
     background-position: center;
 }
 .v-x90-plus__section__design__group-c{
     width: 360px;
     height: 417px;
-    background-image: url(../../../assets/x90-plus-smart2.jpg);
+    background-image: url(../../../assets/x90plus-feature3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -370,7 +370,7 @@
     .v-x90-plus__model-nav__button__black{
         width: 200px;
         height: 30px;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -402,7 +402,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;
@@ -500,7 +500,7 @@
         height: 30px;
         text-decoration: none;
         color: #fff;
-        border: solid 2px #fff;
+        background-color: #30739a;
         border-radius: 50px;
         display: flex;
         justify-content: center;

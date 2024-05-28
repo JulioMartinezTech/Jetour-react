@@ -2,6 +2,7 @@
 
 # video files
 /src/assets/videos
+public/videos
 
 # dependencies
 /node_modules

@@ -4,7 +4,7 @@
 .v-home__header{
     width: 100%;
     height: 166px;
-    background: transparent linear-gradient(180deg, #000000 0%, #26262600 100%) 0% 0% no-repeat padding-box;
+    /* background: transparent linear-gradient(180deg, #9c9c9c9e 0%, #9f9f9f11 100%) 0% 0% no-repeat padding-box; */
     opacity: 1;
     position: absolute;
 }
@@ -62,8 +62,9 @@
     height: 50px;
     font-size: 16px;
     text-decoration: none;
-    color: #333333;
-   border: solid 2px #333333;
+    color: #fff;
+   /* border: solid 2px #333333; */
+   background-color:  #30739a;
    border-radius: 50px;
    display: flex;
    justify-content: center;
@@ -120,8 +121,8 @@
     gap: 40px;
 }
 .v-home__section__innovation__title{
-    font-family: jetourFontBold;
-    font-size: 50px;
+    font-weight: bold;
+    font-size: 60px;
     color: #fff;
 }
 .v-home__section__innovation__text{
@@ -135,7 +136,8 @@
     font-size: 16px;
     color: #fff;
     text-decoration: none;
-    border: solid 2px #fff;
+    /* border: solid 2px #fff; */
+    background-color:  #30739a;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -164,13 +166,34 @@
 .v-home__section__features__item-a{
     width: 300px;
     height: 362px;
-    background-image: url(../../assets/estabilidad-seguridad.png);
+    background-image: url(../../assets/feature-x70.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 .v-home__section__features__item-b{
+    width: 300px;
+    height: 362px;
+    background-image: url(../../assets/feature-x70plus.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.v-home__section__features__item-c{
+    width: 300px;
+    height: 362px;
+    background-image: url(../../assets/feature-dashing.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.v-home__section__features__item-d{
     width: 300px;
     height: 362px;
     background-image: url(../../assets/fuerza-belleza2.png);
@@ -179,20 +202,12 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-.v-home__section__features__item-c{
+.v-home__section__features__item-e{
     width: 300px;
     height: 362px;
-    background-image: url(../../assets/jetour-destacadas-3.png);
+    background-image: url(../../assets/feature-t2.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-.v-home__section__features__item-d{
-    width: 300px;
-    height: 362px;
-    background-image: url(../../assets/innovacion-desarrollo.png);
-    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -211,7 +226,6 @@
     color: #fff;
 }
 .v-home__section__features__item__text-group h2{
-    font-family: jetourFontSemiBold;
     font-size: 18px;
     color: #fff;
     text-align: center;
@@ -252,7 +266,7 @@
 }
 .v-home__section__news__title{
     /* width: 150px; */
-   font-size: 80px;
+   font-size: 60px;
    font-weight: 900;
    color: #343434;
    letter-spacing: 0px;
@@ -290,7 +304,6 @@
    justify-content: center;
    align-items: center;
    gap: 8px;
-   /* padding-left: 60px; */
 
 }
 .v-home__section__news__item__title{
@@ -308,6 +321,23 @@
 .v-home__section__news__item__image{
     width: 90%;
 }
+.v-home__section__float-button{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    right: 20px;
+    bottom: 10px;
+    position: fixed;
+}
+.v-home__cta{
+    /* width: 60px; */
+    background-color: #cacaca;
+    border-radius: 50px;
+    padding: 15px;
+}
+
 .v-home__section-whatsapp{
     width: 100%;
     height: 60px;
@@ -381,7 +411,7 @@
     }
     .v-home__section__news__title{
         /* width: 150px; */
-       font-size: 50px;
+       font-size: 30px;
        line-height: 50px;
     }
     .v-home__section__news__button{

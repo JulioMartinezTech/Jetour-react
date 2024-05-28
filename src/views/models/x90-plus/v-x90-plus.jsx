@@ -7,8 +7,9 @@ import CHeader from '../../../components/c-header/c-header'
 import CFooter from '../../../components/c-footer/c-footer'
 import CSlider from '../../../components/c-slider/c-slider'
 import CAccordion from '../../../components/c-accordion/c-accordion'
+import CScrollUp from '../../../components/c-scroll-up/c-scroll-up'
 
-// import Banner from '../../../assets/x90plus.jpg'
+import Banner from '../../../assets/x90plus-banner.png'
 // import LogoX90Plus from '../../../assets/X90Plus-logo.png'
 import X90PlusBlack from '../../../assets/x90-plus-black.png'
 import X90PlusGray from '../../../assets/x90-plus-grey.png'
@@ -22,10 +23,7 @@ export default function VX90Plus() {
         <div className='v-x90-plus'>
             <CHeader />
             <div className='v-x90-plus__banner'>
-                 <img src={process.env.PUBLIC_URL + "/Images/x90PLus-exterior6.jpg"} alt="" className='v-x90-plus__banner__image'/>
-                 <div className='v-x90-plus__banner__text-container'>
-                    <p className='v-x90-plus__banner__text'>X90 PLUS</p>
-                 </div>
+                 <img src={Banner} alt="" className='v-x90-plus__banner__image'/>
             </div>
             <div className='v-x90-plus__content-nav'>
                 {/* <img src={LogoX90Plus} alt="" className='v-x90-plus__model-nav__logo'/> */}
@@ -33,7 +31,7 @@ export default function VX90Plus() {
                     <div className='v-x90-plus__model-nav__nav-items'>
                         <a href="#overview"  className='v-x90-plus__model-nav__nav-item'>Visión general</a>
                         <a href="#details"  className='v-x90-plus__model-nav__nav-item'>Detalles</a>
-                        <a href="#gallery"  className='v-x90-plus__model-nav__nav-item'>Galerías</a>
+                        <a href="#gallery"  className='v-x90-plus__model-nav__nav-item'>Galería</a>
                         <a href="#config"  className='v-x90-plus__model-nav__nav-item'>Configuración</a>
                     </div>
                     <Link to={'/cotizar/x90-plus'} className='v-x90-plus__model-nav__button'>Cotizar ahora</Link>
@@ -43,32 +41,32 @@ export default function VX90Plus() {
                 <div className='v-x90-plus__section__overview__info-container'>
                     {color !== 'white' && <div className='v-x90-plus__section__overview__details-container'>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title'>Motor Turbo alimentado Gasolina</p>
-                            <h2 className='v-x90-plus__section__overview__detail'>1,998cc.</h2>
+                            <p className='v-x90-plus__section__overview__detail-title'>Doble pantalla digital de:</p>
+                            <h2 className='v-x90-plus__section__overview__detail'>12.30”</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title'>Cilindrada</p>
-                            <h2 className='v-x90-plus__section__overview__detail'>4 Cilindros</h2>
+                            <p className='v-x90-plus__section__overview__detail-title'>Cámara de: </p>
+                            <h2 className='v-x90-plus__section__overview__detail'>360°</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title'>Potencia</p>
-                            <h2 className='v-x90-plus__section__overview__detail'>254HP</h2>
+                            <p className='v-x90-plus__section__overview__detail-title'>Aros</p>
+                            <h2 className='v-x90-plus__section__overview__detail'>20”</h2>
                         </div>
                         <a href="https://jetourglobal.com/spain/x90Plus-720" className='v-x90-plus__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x90-plus'} className='v-x90-plus__model-nav__button__black'>Cotizar ahora</Link>
                     </div>}
                     {color === 'white' && <div className='v-x90-plus__section__overview__details-container'>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title text-black'>Motor Turbo alimentado Gasolina</p>
-                            <h2 className='v-x90-plus__section__overview__detail text-black'>1,998cc.</h2>
+                            <p className='v-x90-plus__section__overview__detail-title text-black'>Doble pantalla digital de:</p>
+                            <h2 className='v-x90-plus__section__overview__detail text-black'>12.30”</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title text-black'>Cilindrada</p>
-                            <h2 className='v-x90-plus__section__overview__detail text-black'>4 Cilindros</h2>
+                            <p className='v-x90-plus__section__overview__detail-title text-black'>Cámara de:</p>
+                            <h2 className='v-x90-plus__section__overview__detail text-black'>360°</h2>
                         </div>
                         <div className='v-x90-plus__section__overview__details-group'>
-                            <p className='v-x90-plus__section__overview__detail-title text-black'>Potencia</p>
-                            <h2 className='v-x90-plus__section__overview__detail text-black'>254HP</h2>
+                            <p className='v-x90-plus__section__overview__detail-title text-black'>Aros</p>
+                            <h2 className='v-x90-plus__section__overview__detail text-black'>20”</h2>
                         </div>
                         <a href="https://jetourglobal.com/spain/x90Plus-720" className='v-x90-plus__section__overview__3d-button'>Visualizador 3D</a>
                         <Link to={'/cotizar/x90-plus'} className='v-x90-plus__model-nav__button__black'>Cotizar ahora</Link>
@@ -141,20 +139,20 @@ export default function VX90Plus() {
                 <div className='v-x90-plus__section__design__info-container no-show-mobile'>
                     <div className='v-x90-plus__section__design__group-a'></div>
                     <div className='v-x90-plus__section__design__text-group'>
-                        <p className='v-x90-plus__section__design__text'>Llantas de Aleación 20”</p>
+                        <p className='v-x90-plus__section__design__text'>Habitáculo para 7 pasajeros</p>
                     </div>
                 </div>
                 <div className='v-x90-plus__section__design__info-container'>
                     <div className='v-x90-plus__section__design__text-group'>
                         <h2 className='v-x90-plus__section__design__title'>APARIENCIA</h2>
-                        <p className='v-x90-plus__section__design__text'>Luces traseras con 236 partículas LED.</p>
+                        <p className='v-x90-plus__section__design__text'>Panel de climatización digital </p>
                     </div>
                     <div className='v-x90-plus__section__design__group-b'></div>
                 </div>
                 <div className='v-x90-plus__section__design__info-container no-show-mobile'>
                     <div className='v-x90-plus__section__design__group-c'></div>
                     <div className='v-x90-plus__section__design__text-group'>
-                        <p className='v-x90-plus__section__design__text'>Baúl Trasero Eléctrico.</p>
+                        <p className='v-x90-plus__section__design__text'>Techo sunroof panorámico</p>
                     </div>
                 </div>
             </div>
@@ -165,8 +163,9 @@ export default function VX90Plus() {
                 <CSlider title="GALERÍA EXTERIOR" data={data.slider2}/>
             </div>
             <div className='v-x90-plus__section-accordion' id="config">
-                <CAccordion data={data.techConfig} title="TABLA DE CONFIGURACIÓN"/>
+                <CAccordion data={data.techConfig} title="TABLA DE CONFIGURACIÓN" url="https://holajetour.do/test/#/modelos/x90-plus"/>
             </div>
+            <CScrollUp/>
             <CFooter />
         </div>
     )

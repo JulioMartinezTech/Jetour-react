@@ -3,6 +3,7 @@
 import './locations.css'
 import CHeader from '../../components/c-header/c-header'
 import CFooter from '../../components/c-footer/c-footer'
+import CScrollUp from '../../components/c-scroll-up/c-scroll-up'
 
 import Banner from '../../assets/concesionarios-banner.png'
 
@@ -44,6 +45,7 @@ export default function VLocations() {
                     </GoogleMapReact>
                 </div>
             </div> */}
+            <CScrollUp/>
             <CFooter />
         </div>
     )

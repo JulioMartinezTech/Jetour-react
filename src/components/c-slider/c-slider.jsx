@@ -22,7 +22,7 @@ export default function CSlider (props) {
             {/* <img src={props.slider1} alt="" /> */}
             <div className='c-slider__carousel-container'> 
                 <div className='c-slider__carousel-image-left'>
-                    {(imgActive - 1) >= 0 ? <img src={props.data[imgActive - 1].imgPath} alt="" className='c-slider__carousel-image'/> : <img src={props.data[props.data.length - 1].imgPath} alt="" className='c-slider__carousel-image'/>}
+                    {(imgActive - 1) >= 0 ? <img src={process.env.PUBLIC_URL + props.data[imgActive - 1].imgPath} alt="" className='c-slider__carousel-image'/> : <img src={process.env.PUBLIC_URL + props.data[props.data.length - 1].imgPath} alt="" className='c-slider__carousel-image'/>}
                 </div> 
                 <div className='c-slider__carousel-image-central'>
                     <div className='c-slider__carousel-controls'>
@@ -38,10 +38,10 @@ export default function CSlider (props) {
                             })}
                         </div>
                     </div>
-                    <img src={props.data[imgActive].imgPath} alt="" className='c-slider__carousel-image-selected'/>
+                    <img src={process.env.PUBLIC_URL + props.data[imgActive].imgPath} alt="" className='c-slider__carousel-image-selected'/>
                 </div>
                 <div className='c-slider__carousel-image-right'>
-                    {(imgActive + 1) <= (props.data.length - 1) ? <img src={props.data[imgActive + 1].imgPath} alt="" className='c-slider__carousel-image'/> : <img src={props.data[0].imgPath} alt="" className='c-slider__carousel-image'/>}
+                    {(imgActive + 1) <= (props.data.length - 1) ? <img src={process.env.PUBLIC_URL + props.data[imgActive + 1].imgPath} alt="" className='c-slider__carousel-image'/> : <img src={process.env.PUBLIC_URL + props.data[0].imgPath} alt="" className='c-slider__carousel-image'/>}
                 </div>
             </div>
         </div>

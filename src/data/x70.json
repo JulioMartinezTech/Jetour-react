@@ -2,33 +2,41 @@
     "slider1": [
         {
             "id": 0,
-            "imgPath": "../../Images/x70-interior2.jpg"
+            "imgPath": "/Images/x70-interior2.jpg"
         },
         {
             "id": 1,
-            "imgPath": "../../Images/x70-interior3.jpg"
+            "imgPath": "/Images/x70-interior3.jpg"
         },
         {
             "id": 2,
-            "imgPath": "../../Images/x70-interior7.png"
+            "imgPath": "/Images/x70-interior7.png"
+        },
+        {
+            "id": 3,
+            "imgPath": "/Images/x70-interior9.jpg"
+        },
+        {
+            "id": 4,
+            "imgPath": "/Images/x70-interior10.jpg"
         }
     ],
     "slider2": [
         {
             "id": 0,
-            "imgPath": "../../Images/x70-exterior1.jpg"
+            "imgPath": "/Images/x70-exterior1.jpg"
         },
         {
             "id": 1,
-            "imgPath": "../../Images/x70-exterior2.jpg"
+            "imgPath": "/Images/x70-exterior2.jpg"
         },
         {
             "id": 2,
-            "imgPath": "../../Images/x70-exterior3.jpg"
+            "imgPath": "/Images/x70-exterior3.jpg"
         },
         {
             "id": 3,
-            "imgPath": "../../Images/x70-exterior4.jpg"
+            "imgPath": "/Images/x70-exterior4.jpg"
         }
     ],
     "techConfig": [
@@ -44,7 +52,7 @@
                 {
                     "id": 1,
                     "title": "Etiqueta del producto",
-                    "description": "1.5T+5MT/1.5T+8AT"
+                    "description": "1.5T+5MT"
                 },
                 {
                     "id": 2,
@@ -91,17 +99,42 @@
                 {
                     "id": 6,
                     "title": "Número de asientos",
-                    "description": "5/6/5+2"
+                    "description": "5+2"
                 },
                 {
                     "id": 7,
-                    "title": "Capacidad del tanque de combustible (L)",
+                    "title": "Capacidad del tanque de combustible (GL)",
                     "description": "55"
                 },
                 {
                     "id": 8,
                     "title": "Capacidad del maletero (L)",
                     "description": "1260"
+                },
+                {
+                    "id": 9,
+                    "title": "Tipo de suspensión delantera/Tipo de suspensión trasera",
+                    "description": "Suspensión independiente multibrazo con barra estabilizadora"
+                },
+                {
+                    "id": 10,
+                    "title": "Tipo de freno delantero/Tipo de freno trasero",
+                    "description": "Freno de disco/Freno de disco"
+                },
+                {
+                    "id": 11,
+                    "title": "Tipo de freno de estacionamiento",
+                    "description": "Conveniente sistema de freno de estacionamiento electrónico EPB"
+                },
+                {
+                    "id": 12,
+                    "title": "Especificación de neumáticos delanteros/traseros",
+                    "description": "R20"
+                },
+                {
+                    "id": 13,
+                    "title": "Especificaciones del neumático de repuesto",
+                    "description": "Tamaño no completo"
                 }
             ]
 
@@ -143,7 +176,7 @@
                 {
                     "id": 6,
                     "title": "Tipo de transmisión",
-                    "description": "5MT"
+                    "description": "8MT"
                 },
                 {
                     "id": 7,
@@ -154,55 +187,6 @@
                     "id": 8,
                     "title": "El anuncio de consumo de combustible (L/100km)",
                     "description": "7.4"
-                }
-            ]
-
-        },
-        {
-            "id": 4,
-            "category": "Dirección del chasis",
-            "info": [
-                {
-                    "id": 0,
-                    "title": "Modo conductor",
-                    "description": "FF"
-                },
-                {
-                    "id": 1,
-                    "title": "Tipo de suspensión delantera/Tipo de suspensión trasera",
-                    "description": "Suspensión independiente multibrazo con barra estabilizadora"
-                },
-                {
-                    "id": 2,
-                    "title": "Tipo de dirección",
-                    "description": "HPS"
-                }
-            ]
-
-        },
-        {
-            "id": 5,
-            "category": "Freno de rueda",
-            "info": [
-                {
-                    "id": 0,
-                    "title": "Tipo de freno delantero/Tipo de freno trasero",
-                    "description": "Freno de disco/Freno de disco"
-                },
-                {
-                    "id": 1,
-                    "title": "Tipo de freno de estacionamiento",
-                    "description": "Conveniente sistema de freno de estacionamiento electrónico EPB"
-                },
-                {
-                    "id": 2,
-                    "title": "Especificación de neumáticos delanteros/traseros",
-                    "description": "R17"
-                },
-                {
-                    "id": 3,
-                    "title": "Especificaciones del neumático de repuesto",
-                    "description": "Tamaño no completo"
                 }
             ]
 

@@ -2,45 +2,45 @@
     "slider1": [
         {
             "id": 0,
-            "imgPath": "../../Images/x90PLus-interior1.jpg"
+            "imgPath": "/Images/x90PLus-interior1.jpg"
         },
         {
             "id": 1,
-            "imgPath": "../../Images/x90PLus-interior2.jpg"
+            "imgPath": "/Images/x90PLus-interior2.jpg"
         },
         {
             "id": 2,
-            "imgPath": "../../Images/x90PLus-interior3.jpg"
+            "imgPath": "/Images/x90PLus-interior3.jpg"
         },
         {
             "id": 3,
-            "imgPath": "../../Images/x90PLus-interior4.jpg"
+            "imgPath": "/Images/x90PLus-interior4.jpg"
         },
         {
             "id": 4,
-            "imgPath": "../../Images/x90PLus-interior5.jpg"
+            "imgPath": "/Images/x90PLus-interior5.jpg"
         }
     ],
     "slider2": [
         {
             "id": 0,
-            "imgPath": "../../Images/x90PLus-exterior1.jpg"
+            "imgPath": "/Images/x90PLus-exterior1.jpg"
         },
         {
             "id": 1,
-            "imgPath": "../../Images/x90PLus-exterior2.jpg"
+            "imgPath": "/Images/x90PLus-exterior2.jpg"
         },
         {
             "id": 2,
-            "imgPath": "../../Images/x90PLus-exterior3.jpg"
+            "imgPath": "/Images/x90PLus-exterior3.jpg"
         },
         {
             "id": 3,
-            "imgPath": "../../Images/x90PLus-exterior4.jpg"
+            "imgPath": "/Images/x90PLus-exterior4.jpg"
         },
         {
             "id": 4,
-            "imgPath": "../../Images/x90PLus-exterior5.jpg"
+            "imgPath": "/Images/x90PLus-exterior5.jpg"
         }
     ],
     "techConfig": [
@@ -56,7 +56,7 @@
                 {
                     "id": 1,
                     "title": "Etiqueta del producto",
-                    "description": "1.6TGDI-7DCT"
+                    "description": "2TGDI-7DCT"
                 },
                 {
                     "id": 2,
@@ -97,13 +97,23 @@
                 },
                 {
                     "id": 5,
-                    "title": "Capacidad del tanque de combustible (L)",
+                    "title": "Capacidad del tanque de combustible (GL)",
                     "description": "57"
                 },
                 {
                     "id": 6,
                     "title": "Transmisión",
                     "description": "7DCT"
+                },
+                {
+                    "id": 7,
+                    "title": "Tipo de suspensión delantera",
+                    "description": "Suspensión independiente Macpherson"
+                },
+                {
+                    "id": 8,
+                    "title": "Tipo de suspensión Trasera",
+                    "description": "Suspensión independiente de enlace múltiple"
                 }
             ]
 
@@ -115,7 +125,7 @@
                 {
                     "id": 0,
                     "title": "Cilindrada (ml)",
-                    "description": "1598"
+                    "description": "1998"
                 },
                 {
                     "id": 1,
@@ -137,33 +147,6 @@
         },
         {
             "id": 4,
-            "category": "Dirección del chasis",
-            "info": [
-                {
-                    "id": 0,
-                    "title": "Modo conductor",
-                    "description": "FF"
-                },
-                {
-                    "id": 1,
-                    "title": "Tipo de suspensión delantera",
-                    "description": "Suspensión independiente Macpherson"
-                },
-                {
-                    "id": 2,
-                    "title": "Tipo de suspensión Trasera",
-                    "description": "Suspensión independiente de enlace múltiple"
-                },
-                {
-                    "id": 3,
-                    "title": "Tipo de energía",
-                    "description": "EPS"
-                }
-            ]
-
-        },
-        {
-            "id": 5,
             "category": "Freno de rueda",
             "info": [
                 {
