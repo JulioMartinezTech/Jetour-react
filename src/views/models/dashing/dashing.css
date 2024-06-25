@@ -306,29 +306,6 @@
     padding: 0 30px;
     margin-top: 20px;
 }
-
-@media (min-width: 1930px) {
-    /* .v-dashing__banner__video{
-        display: none;
-    }
-    .v-dashing__banner__image{
-        width: 100%;
-        display: block;
-    } */
-}
-@media (max-width: 1900px) {
-    /* .v-dashing__banner__video{
-        display: none;
-    }
-    .v-dashing__banner__image{
-        width: 100%;
-        display: block;
-    } */
-    /* .v-dashing__section__overview__image-container{
-        left: 190px;
-        margin-top: 230px;
-    } */
-}
 @media (max-width: 1700px) {
     .v-dashing__section__overview__image-container{
         width: 1230px;

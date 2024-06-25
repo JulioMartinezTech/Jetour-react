@@ -189,5 +189,143 @@
 
         }
        
+    ],
+    "models":{
+        "version1": "Dashing",
+        "version2": "Dashing Plus"
+    },
+    "comparativeTable": [
+        {
+            "id": 0,
+            "title": "Categoría",
+            "version1": "SUV",
+            "version2": "SUV"
+        },
+        {
+            "id": 1,
+            "title": "Etiqueta del producto",
+            "version1": "1.5 - 6DCT",
+            "version2": "1.6 - 7DCT"
+        },
+        {
+            "id": 2,
+            "title": "Largo*ancho*alto (mm)",
+            "version1": "4590 * 1900 * 1685",
+            "version2": "4590 * 1900 * 1685"
+        },
+        {
+            "id": 3,
+            "title": "Distancia entre ejes (mm)",
+            "version1": "2720",
+            "version2": "2720"
+        },
+        {
+            "id": 4,
+            "title": "Distancia mínima al suelo (mm)",
+            "version1": "160",
+            "version2": "160"
+        },
+        {
+            "id": 5,
+            "title": "Número de asientos",
+            "version1": "5",
+            "version2": "5"
+        },
+        {
+            "id": 6,
+            "title": "Capacidad del tanque de combustible (L)",
+            "version1": "57",
+            "version2": "57"
+        },
+        {
+            "id": 7,
+            "title": "Capacidad del maletero (L)",
+            "version1": "486/977 (Asientos traseros abatidos)",
+            "version2": "486/977 (Asientos traseros abatidos)"
+        },
+        {
+            "id": 8,
+            "title": "Color del vehículo",
+            "version1": "Negro / Blanco/Azul / Gris oscuro / Verde / Rojo",
+            "version2": "Negro / Blanco/Azul / Gris Oscuro / Verde / Rojo"
+        },
+        {
+            "id": 9,
+            "title": "Color interior",
+            "version1": "Blanco/ Gris - Negro/Rojo",
+            "version2": "Blanco/ Gris - Negro/Rojo"
+        },
+        {
+            "id": 10,
+            "title": "Desplazamiento (ml)",
+            "version1": "1498",
+            "version2": "1598"
+        },
+        {
+            "id": 11,
+            "title": "Potencia Máxima (kW@RPM)",
+            "version1": "115@5500",
+            "version2": "115@5500"
+        },
+        {
+            "id": 12,
+            "title": "Par Máximo (N·m@RPM)",
+            "version1": "220@1750-4000",
+            "version2": "290@1750-4000"
+        },
+        {
+            "id": 13,
+            "title": "Aros de alineación",
+            "version1": "19”",
+            "version2": "20”"
+        },
+        {
+            "id": 14,
+            "title": "Estándar de emisión",
+            "version1": "China Ⅵ B",
+            "version2": "China Ⅵ B"
+        },
+        {
+            "id": 15,
+            "title": "Transmisión",
+            "version1": "6DCT",
+            "version2": "7DCT"
+        },
+        {
+            "id": 16,
+            "title": "Pantalla Digital de infoentretenimiento",
+            "version1": "12.8”",
+            "version2": "15.6”"
+        },
+        {
+            "id": 17,
+            "title": "Tipo de suspensión",
+            "version1": "Suspensión independiente Macpherson / Suspensión independiente de enlace múltiple",
+            "version2": "Suspensión independiente Macpherson / Suspensión independiente de enlace múltiple"
+        },
+        {
+            "id": 18,
+            "title": "Tipo de freno",
+            "version1": "Tipo de disco ventilado delantero/tipo de disco sólido trasero",
+            "version2": "Tipo de disco ventilado delantero/tipo de disco sólido trasero"
+        },
+        {
+            "id": 19,
+            "title": "Tipo de freno de estacionamiento",
+            "version1": "EPB+RETENCIÓN AUTOMÁTICA",
+            "version2": "EPB+RETENCIÓN AUTOMÁTICA"
+        },
+        {
+            "id": 20,
+            "title": "Sistemas ADAS",
+            "version1": "Sensor de aproximación y punto ciego",
+            "version2": "Sensor de aproximación, Sensor de cambio de carril y punto ciego con asistencia de frenado"
+        },
+        {
+            "id": 21,
+            "title": "Asientos delanteros eléctricos y ventilados",
+            "version1": "Si",
+            "version2": "Si"
+        }
     ]
 }

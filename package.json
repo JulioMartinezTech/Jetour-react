@@ -1,6 +1,7 @@
 {
   "name": "jetour",
   "version": "0.1.0",
+  "author": "Julio Martínez <info.julioweb@gmail.com> (http://platanogeek.com)",
   "private": true,
   "homepage": "/test",
   "dependencies": {
