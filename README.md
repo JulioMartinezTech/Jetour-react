@@ -39,4 +39,4 @@ npm start
 
 ## Autor
 
-**Julio Martínez** — [platanogeek.com](http://platanogeek.com)
+**Julio Martínez**
